@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font: "Lucida Grande, Lucida Sans Unicode, Helvetica, Arial, Verdana, sans-serif";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.main-page{
+    width: 100%;
+}
+/* nav bar */
+.title{
+    position: relative;
+    display: grid;
+    width: 980px;
+    height: 36px;
+    text-align: left;
+    z-index: 9998;
+    margin: 0 auto;
+    top: 80px;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    float: inline-end;
+}
+.icons a:hover {
+    background-color: black;
+    border-radius: 0.1px;
+    margin: auto;
+  }
+.title-nav{
+    width: 845px;
+  height: 36px;
+  z-index: 0;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  float: left;
+  zoom: 1;
+}
+.title-nav li{
+
+    margin: 0;
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+}
+
+.search{
+position: relative;
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  z-index: 0;
+  border-radius: 12px;
+  border: 0 none;
+  background: url(https://web.archive.org/web/20140301054859im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
+}
+.title .search-bar .form-search {
+    position: relative;
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    z-index: 0;
+    border-radius: 12px;
+    border: 0 none;
+    background: url(https://web.archive.org/web/20140301054859im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
+  }
+  .title .search-bar .form-search .text {
+    width: 100%;
+    height: 19px;
+    padding: 2px 18px 1px 22px;
+    background-image: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 0 none;
+  }
+  .icons{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.5rem;
+  }
+ .icons a{
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .icons a{
+     list-style: none;
+     text-decoration: none;
+     color: white;
+ }
+/* end of nav bar */
+
+/* main */
+.background h1{
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.background h1 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.background h3{
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.background h3 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.background-icons{
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.background-icons a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.background{
+    position: absolute;
+    display: block;  
+    width: 100%;
+    height: 100%;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background-size: 1440px 1315px;
+}
+.background-icons a:hover {
+    /* background-color: gray; */
+    text-decoration: underline;
+  }
+.main{
+    padding-top: 10rem;
+}
+/* end of main */
+
+/* side bar */
+.side-bar{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding-top: 41rem;
+    width: 100%;
+}
+.side-bar img{
+    width: 100%;
+    
+}
+.side-bar li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* end of side bar */
+
+/* footer */
+
+footer {
+    display: grid;
+    padding-bottom: 2rem;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer-base{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.footer-p{
+    display: inline;
+    font-size: 10px;
+    font-weight: lighter;
+    padding:10px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.footer-ul{
+    display: inline;
+    margin-left: 2rem;
+    font-size: 10px;
+    font-weight: lighter;
+    padding:10px;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+}
+.footer a{
+    list-style: none;
+    text-decoration: none;
+}
+.footer ul a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.worldwide{
+  position: relative;
+  display: inline;
+  z-index: 1;
+  top: 0.5px;
+  left: 7px;
+}
+.footer-buttom{
+    display: inline;
+    font-size: 10px;
+    font-weight: lighter;
+    padding:10px;
+    padding-left: 2rem
+}
+
+/* end of footer */
