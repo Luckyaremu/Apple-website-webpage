@@ -1,6 +1,6 @@
 # Apple-website-webpage
 
-![screenshot]()
+![screenshot](img/screenshot.jpg)
 
 A clone of the beautifull old apple website page
 
@@ -11,7 +11,7 @@ A clone of the beautifull old apple website page
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://silly-williams-f57954.netlify.com/)
 
 ## Getting Started
 
