@@ -15,8 +15,6 @@ body {
   width: 100%;
 }
 
-/* nav bar */
-
 .title {
   position: relative;
   display: grid;
@@ -156,10 +154,6 @@ body {
   color: white;
 }
 
-/* end of nav bar */
-
-/* background */
-
 .footer-p a {
   color: blue;
 }
@@ -255,10 +249,6 @@ body {
   padding-top: 10rem;
 }
 
-/* end of background */
-
-/* Buttom images */
-
 .side-bar {
   display: grid;
   grid-template-columns: repeat(4, 2fr);
@@ -286,12 +276,6 @@ body {
     width: 1100px;
   }
 }
-
-/* End of buttom images */
-
-/* end of main page */
-
-/* footer */
 
 footer {
   display: grid;
@@ -381,5 +365,3 @@ footer {
 .footer-buttom .second-a {
   border: none;
 }
-
-/* end of footer */
